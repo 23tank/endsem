@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  hospital-frontend:
+    build: .
+    container_name: hospital-frontend
+    ports:
+      - "80:80"
+    restart: always
